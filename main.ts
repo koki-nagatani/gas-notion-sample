@@ -1,7 +1,7 @@
 
 function retrievePage() {
     const token: string | null = PropertiesService.getScriptProperties().getProperty("API_TOKEN");
-    const pageId: string = "d63e6b65133e424b80e67fd37d96a89b";
+    const pageId: string = "xxxx";
     const apiUrl: string = "https://api.notion.com/v1/blocks/" + pageId + "/children";
 
     const options  = {
